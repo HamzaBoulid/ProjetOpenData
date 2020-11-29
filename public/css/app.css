@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    height : 100vh;
+    margin: 0;
+    background-image: url('../img/openDataBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.full-height {
+    height: 75vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.content_form{
+    text-align: left;
+}
+
+.content_trajet{
+    text-align: left;
+}
+.annonce{
+    text-align: center;
+    font-size: medium;
+}
+
+.title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
+  .center {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+.example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
