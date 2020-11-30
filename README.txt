@@ -20,6 +20,8 @@ https://symfony.com/download
 
 Utiliser VS Code ou un autre terminal php
 
+se rendre à la racine du document
+
 puis lancer : 
 
 composer update (facultatif)
