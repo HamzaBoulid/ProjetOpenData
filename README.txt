@@ -22,6 +22,8 @@ Utiliser VS Code ou un autre terminal php
 
 puis lancer : 
 
+composer update (facultatif)
+
 composer install
 
 php bin/console server:run
