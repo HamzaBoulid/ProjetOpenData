@@ -5,13 +5,16 @@
 {% block body %}
 
 <div class="example-wrapper center" >
-    <a href="{{path('jeu5')}}" class="btn btn-primary">Précedent</a>
+    <a href="{{path('jeu3')}}" class="btn btn-primary">Précedent</a>
     <div id="div_histogram"></div>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         {{ gc_language('fr') }}
     
         {{ gc_draw(combo, 'div_histogram') }}
+        
     </script>
+        <a href="{{path('jeu4')}}" class="btn btn-primary">Suivant</a>
+
 </div>
 {% endblock %}
